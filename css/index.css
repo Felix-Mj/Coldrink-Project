@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Alfa+Slab+One&family=Anton&display=swap');
+/* font-family: 'ABeeZee', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Anton', sans-serif; */
+
+
+body{
+    background-color: rgb(78, 68, 209);
+}
+.image{
+    width: 3rem;
+    height:3rem;
+    margin-top: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 140px 0 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* middle  */
+.image-1{
+   height: 30rem;
+   margin-top: 40px;
+   
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+
+}
+.loream-tag{
+    color: aliceblue;
+    margin-left: 35px;
+  
+}
+
+.loream-tag h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+
+    
+}
+h1,h2,h3,h6,p{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.loream-tag h1{
+    font-family: 'Alfa Slab One', cursive;   
+    font-size: 50px; 
+    letter-spacing: 5px;
+
+}
+.loream-tag p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 12px;
+    word-spacing: 10px;
+}
+button.BTN-1{
+    cursor: pointer;
+    border: none;
+    background-color:rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.image-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 10px;
+    color: aliceblue;
+
+    /* position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: aliceblue;
+    background-color: black;
+    padding: 16px;
+    border-radius: 8px 0px 0px 8px; */
+}
+.image-3 img{
+    height: 50px;
+}
+.image-3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    transition: 0.5s;
+}
+.image-3 a{
+    list-style: none;
+}
+.image-3 a:hover{
+    transform: translateY(-15px);
+}
+
+
+
+
+

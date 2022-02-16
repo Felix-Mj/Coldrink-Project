@@ -1,0 +1,36 @@
+.bars-1{
+    display: none;
+    color: aliceblue;
+    margin: 25px 0px;
+}
+
+@media(max-width:1000px){
+    nav ul{
+        gap: 30px;
+    }
+    header{
+        padding: 0px 140px 0 0px;
+    }
+}
+@media(max-width:655px){
+    nav ul{
+        display: none;
+    }
+    .bars-1{
+        display: block;
+    }
+    .image-2{
+        display: none;
+    }
+}
+@media(max-width:810px){
+    .main-container{
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .image-2{
+        flex-direction: row;
+    }
+}
